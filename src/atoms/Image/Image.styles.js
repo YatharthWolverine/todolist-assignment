@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Box, BoxProps } from "atoms/Box";
+import { Box } from "atoms/Box";
 
 export const StyledImage = styled.img`
   width: 100%;
