@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "AxiformaBold";
+  font-style: normal;
+  src: url(../assets/fonts/AxiformaBold.otf) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AxiformaMedium";
+  font-style: normal;
+  src: url(../assets/fonts/AxiformaMedium.otf) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AxiformaRegular";
+  font-style: normal;
+  src: url(../assets/fonts/AxiformaRegular.otf) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AxiformaLight";
+  font-style: normal;
+  src: url(../assets/fonts/AxiformaLight.otf) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AxiformaExtraBold";
+  font-style: normal;
+  src: url(../assets/fonts/AxiformaExtraBold.otf) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AxiformaBook";
+  font-style: normal;
+  src: url(../assets/fonts/AxiformaBook.otf) format("woff2");
+  font-display: swap;
+}
+
