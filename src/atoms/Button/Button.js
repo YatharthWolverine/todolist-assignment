@@ -79,6 +79,7 @@ export const Button = ({
   fontWeight,
   classes,
   label,
+  fontSize,
   ...rest
 }) => {
   const [asyncLoading, setLoading] = useState(false);
@@ -151,7 +152,7 @@ Button.defaultProps = {
 
 Button.propTypes = {
   // label: PropTypes.string,
-  fontSize: PropTypes.string,
+  fontSize: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   as: PropTypes.string,
   width: PropTypes.string,
 };

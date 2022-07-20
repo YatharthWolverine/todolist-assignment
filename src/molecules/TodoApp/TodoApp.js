@@ -141,7 +141,7 @@ export const TodoApp = () => {
                     p="0.2rem"
                     mr="0.8rem"
                     mb="0.8rem"
-                    key={items.id}
+                    key={index}
                     onClick={() => {
                       if (filter.includes(items)) {
                         let y = filter.filter((a) => a !== items);
