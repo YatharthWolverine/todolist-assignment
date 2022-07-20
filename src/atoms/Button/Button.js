@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React, { useCallback, useState } from "react";
 import styled from "styled-components";
-import { fontSize, variant } from "styled-system";
+import { variant } from "styled-system";
 import PropTypes from "prop-types";
 
 import { Box, Flex, Text, Loader } from "atoms";
@@ -154,5 +155,5 @@ Button.propTypes = {
   // label: PropTypes.string,
   fontSize: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   as: PropTypes.string,
-  width: PropTypes.string,
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 };
