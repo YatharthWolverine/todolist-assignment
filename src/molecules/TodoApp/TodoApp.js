@@ -4,9 +4,13 @@ import { TodoCards } from "molecules/TodoCards";
 import Cookies from "js-cookie";
 
 export const TodoApp = () => {
-  const [todo, setTodo] = useState(JSON.parse(Cookies.get("todo")) ?? []);
+  const [todo, setTodo] = useState(
+    JSON.parse(Cookies.get("todo")) ? JSON.parse(Cookies.get("todo")) : []
+  );
   const [field, setField] = useState("");
-  const [tags, setTags] = useState(JSON.parse(Cookies.get("tags")) ?? []);
+  const [tags, setTags] = useState(
+    JSON.parse(Cookies.get("tags")) ? JSON.parse(Cookies.get("tags")) : []
+  );
   const [filter, setFilter] = useState([]);
 
   const handleTodo = (e) => {
