@@ -35,7 +35,7 @@ export const TodoCards = ({
       <Flex
         borderRadius="0.4rem"
         bg={status === "complete" ? "green" : "#403BCB"}
-        p="0.5rem 0.8rem"
+        p={{ xs: "0.3rem 0.6rem", md: "0.5rem 0.8rem" }}
         m="0.2rem"
       >
         <Box
@@ -43,7 +43,7 @@ export const TodoCards = ({
           _hover={{ transform: "scale(1.1)" }}
           cursor="pointer"
         >
-          <Text color="white" fontSize="1.2rem">
+          <Text color="white" fontSize={{ xs: "0.8rem", md: "1.2rem" }}>
             {title}
           </Text>
         </Box>
@@ -52,7 +52,7 @@ export const TodoCards = ({
           <Text
             ml="1.4rem"
             color="white"
-            fontSize="1rem"
+            fontSize={{ xs: "0.6rem", md: "1rem" }}
             _hover={{ transform: "scale(1.1)" }}
             cursor="pointer"
             onClick={() => handleRemove(id)}
@@ -64,7 +64,7 @@ export const TodoCards = ({
           <Text
             ml="1.4rem"
             color="white"
-            fontSize="1rem"
+            fontSize={{ xs: "0.6rem", md: "1rem" }}
             _hover={{ transform: "scale(1.1)" }}
             cursor="pointer"
             onClick={() => handleRedo(id)}

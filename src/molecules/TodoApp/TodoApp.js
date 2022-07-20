@@ -33,7 +33,6 @@ export const TodoApp = () => {
   filteredData = todo.filter((a) =>
     a.tags.map((k) => filter.some((x) => k === x)).some((d) => d === true)
   );
-  console.log(filteredData);
 
   return (
     <>
@@ -42,11 +41,12 @@ export const TodoApp = () => {
         alignItems="center"
         height="100vh"
         bg="#050E29"
+        px={{ xs: "1rem" }}
       >
         <Box
           bg="white"
           borderRadius="0px 24px 24px 24px"
-          width="32rem"
+          width={{ xs: "20rem", md: "32rem" }}
           height="25rem"
           overflowY="auto"
           className="hide-scrollbar"
@@ -54,7 +54,12 @@ export const TodoApp = () => {
           mx="auto"
           boxShadow="10px 10px 25px rgba(25, 118, 210, 0.5)"
         >
-          <Text fontSize="2rem" color="#050E29" fontWeight="600">
+          <Text
+            fontSize="2rem"
+            textAlign="center"
+            color="#050E29"
+            fontWeight="600"
+          >
             📋 TodoApp
           </Text>
           <Flex justifyContent="center" my="1rem">
@@ -112,13 +117,13 @@ export const TodoApp = () => {
                 })}
           </Flex>
           {todo?.length === 0 && (
-            <Text fontSize="1.4rem" fontWeight="500">
+            <Text fontSize="1.4rem" fontWeight="500" textAlign="center">
               Bucket list looks Empty 📌
             </Text>
           )}
           <Box py="1.6rem">
             {tags?.length !== 0 && (
-              <Text fontSize="1.4rem" fontWeight="500">
+              <Text fontSize="1.4rem" fontWeight="500" textAlign="center">
                 Tags:
               </Text>
             )}
