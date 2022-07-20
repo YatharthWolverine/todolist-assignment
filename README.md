@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with ToDo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made as a part of assignment for employment in the position of Software Engineer (React.js) at Tailnode Technologies). The project enables you to add your todo list task along with their hastags, you can seperately filter your tasks based on thier hashtags, the status of task is also highlighted in the right of the tasks card. ✘ - pending tasks and ✔ - completed tasks in your todo lists. You can also remove a task from your todo list by simply clicking ✘ icon, and you can make any task that is completed again as incomplete by clicking on ✔ icon, you can mark a task complete by simply clicking the task text. Reset Buttom simply empties the todo list.
 
 ## Available Scripts
 
@@ -45,26 +45,25 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Demonstartion of Todo App along with screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Step 1: For entering a value use the input field to add tasks along with the hashtags and hit return key (Enter key)
+![work](https://user-images.githubusercontent.com/86282149/179896430-741400c1-7cdb-4677-bddc-221524979ba9.png)
 
-### Analyzing the Bundle Size
+Step 2: For marking a task as complete simply click on task cards appended as shown in picture below
+![work](https://user-images.githubusercontent.com/86282149/179896992-5bd0db2f-bfaf-4c78-99b3-0cf1d97fd439.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Step 3: Tasks completed will be marked with green color and a tick mark
+![work](https://user-images.githubusercontent.com/86282149/179897167-0a02257f-7b7c-4cd8-bc0a-73bfdb881a13.png)
 
-### Making a Progressive Web App
+Step 4: Tasks could be filtered based on the tags shown below by simply clicking on them and filter could be cleared by clicking on tags once again.
+![work](https://user-images.githubusercontent.com/86282149/179897444-25baf44e-c094-4489-9abb-38da6dc3ea1a.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Step 5: Tasks could be removed from the bucket list by clicking the ✘ icon and could be moved from completed task to incomplete again by clicking ✔
+![work](https://user-images.githubusercontent.com/86282149/179897766-b4988e96-1b62-4eb5-8400-fa5645cccd4d.png)
 
-### Advanced Configuration
+Step 6: Reset Button is used to empty all the task in your present Bucket list.
+![work](https://user-images.githubusercontent.com/86282149/179897946-7959041b-f9cf-4120-8762-2367bb317ccb.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
