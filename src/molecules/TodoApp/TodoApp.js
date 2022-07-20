@@ -5,15 +5,11 @@ import Cookies from "js-cookie";
 
 export const TodoApp = () => {
   const [todo, setTodo] = useState(
-    Cookies.get("todo") !== null || Cookies.get("todo") !== undefined
-      ? JSON.parse(Cookies.get("todo"))
-      : []
+    Cookies.get("todo") ? JSON.parse(Cookies.get("todo")) : []
   );
   const [field, setField] = useState("");
   const [tags, setTags] = useState(
-    Cookies.get("tags") !== null || Cookies.get("tags") !== undefined
-      ? JSON.parse(Cookies.get("tags"))
-      : []
+    Cookies.get("tags") ? JSON.parse(Cookies.get("tags")) : []
   );
   const [filter, setFilter] = useState([]);
 
